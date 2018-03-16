@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+
+  <title>Document</title>
+
+</head>
+
+<body>
+
+  <div class="wrap">
+    <header class="header">
+      <div class="logo">
+        <span class="titleLogo">
+          Fortexgroup
+        </span>
+        <br>
+        <span></span>Москва, тестовая 10</span>
+      </div>
+      <div class="size">
+        <span>Размеры</span>
+        <select id="select">
+          <option value="all" data-size="all" class="subSelect" disabled>Все размеры</option>
+          <option value="big" data-size="big" class="subSelect">Большие</option>
+          <option value="middle" data-size="middle" selected class="subSelect">Средние</option>
+          <option value="small" data-size="small" class="subSelect">Маленькие</option>
+        </select>
+      </div>
+      <div class="checkAll" id="chek">
+        <label>
+          <input type="checkbox" id="btnCheckAll">Выделить все</input>
+        </label>
+      </div>
+      <button id="btnRemove">Удалить</button>
+    </header>
+
+    <section class="photos">
+
+      <div class="boxes" id="boxes">
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="small" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="middle" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+        <label class="box control control-checkbox">
+          <input type="checkbox" data-size="big" class="checkbox">
+          <div class="control_indicator"></div>
+        </label>
+
+      </div>
+
+    </section>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
