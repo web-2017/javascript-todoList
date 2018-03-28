@@ -1,3 +1,3 @@
-## Тестовое задание от Магомедова Марио
+## todo list on javascript
 
 * clone this repo
